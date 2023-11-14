@@ -1,0 +1,22 @@
+{
+  "name": "jasonmangin-portfolio",
+  "version": "1.0.0",
+  "description": "A collection of projects and information about Jason Mangin.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jollyrgr83/jasonmangin.git"
+  },
+  "keywords": [
+    "jason", "mangin", "portfolio"
+  ],
+  "author": "Jason Mangin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^7.0.7"
+  }
+}

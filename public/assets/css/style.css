@@ -1,0 +1,307 @@
+/* body sizing and background */
+.background {
+  width: 375px;
+  background-color: rgba(119, 136,153, 50%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  padding: 10px;
+}
+/* logo */
+.logo {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+/* education institution images */
+.ed {
+  width: 150px;
+  padding-top: 20px;
+}
+/* container elements */
+.section-container {
+  background-color: lightslategray;
+  color: steelblue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px black;
+  margin: 10px;
+  padding: 10px;
+}
+/* container element for education images */
+.ed-container {
+  background-color: steelblue;
+  border-radius: 100%;
+  box-shadow: 2px 2px 5px black;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+}
+/* container element for education text */
+.ed-text-container {
+  background-color: lightgray;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 2px 2px 5px black;
+  margin: 10px;
+  padding: 10px;
+  width: 315px;
+}
+/* main titles */
+h1 {
+  color: navy;
+  border: none;
+  border-radius: 15px;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 300;
+  font-size: 42px;
+  margin: 10px;
+  padding: 10px;
+}
+/* section titles */
+h2 {
+  color: navy;
+  border: none;
+  border-radius: 15px;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 300;
+  font-size: 28px;
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  text-align: left;
+}
+/* education titles */
+h3 {
+  color: navy;
+  border: none;
+  font-size: 24px;
+  margin: 10px;
+  padding: 0;
+}
+/* education subtitles */
+h4 {
+  color: navy;
+  border: none;
+  font-size: 20px;
+  margin: 10px;
+  padding: 0;
+}
+/* section text */
+ul {
+  margin: 0;
+  padding: 10px;
+  list-style-type: none;
+}
+li {
+  color: lightgray;
+  border: none;
+  font-size: 16px;
+  margin: 10px;
+  text-align: center;
+}
+.section-text {
+  color: lightgray;
+  border: none;
+  font-size: 16px;
+  margin: 10px;
+  text-align: left; 
+}
+.indent {
+  text-indent: 10%;
+}
+/* education text */
+.ed-text {
+  color: navy;
+  margin: 10px;
+  padding: 0;
+  text-align: center;
+}
+/* buttons */
+.button {
+  background-color: steelblue;
+  color: navy;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 1px 1px 3px black;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 300;
+  font-size: 21px;
+  outline: none;
+  margin: 10px;
+  padding: 5px;
+  width: 100px;
+}
+.button:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 6px black;
+  border: none;
+  outline: none;
+  /* color: whitesmoke; */
+}
+.button:active {
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 1px 1px black;
+}
+.button:focus {
+  cursor: pointer;
+  outline: none;
+}
+/* square buttons */
+.square {
+  color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 24px;
+  height: 2.25em;
+  width: 2.25em;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+.square:hover {
+  color: white;
+  text-decoration: none;
+  box-shadow: 3px 3px 6px black;
+  border: none;
+  outline: none;
+}
+.square:active {
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 1px 1px black;
+}
+.square-focus {
+  cursor: pointer;
+  outline: none;
+}
+.linkedin {
+  background-color: #0077B5;
+}
+.github {
+  background-color: #24292e;
+}
+.resume {
+  background-color: orangered;
+}
+/* project display elements */
+select:enabled, select:active, select:focus {
+  background-color: lightgray;
+  color: navy;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px black;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+  width: 315px;
+}
+.project-img {
+  width: 315px;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 15px;
+  margin: 10px;
+}
+.link-container {
+  background-color: lightgray;
+  color: navy;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px black;
+  margin: 10px 10px 20px 10px;
+  padding: 10px;  
+  text-align: center;
+  width: 315px;
+}
+.project-link {
+  color: navy;
+  font-size: 18px;
+}
+.project-text {
+  background-color: steelblue;
+  color: lightgray;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px black;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+/* email and phone contact information formatting */
+.contact-info {
+  background-color: lightgray;
+  color: navy;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px black;
+  font-size: 22px;
+  text-align: center;
+  margin: 10px !important;
+  padding: 10px !important;
+  width: 315px !important;
+}
+/* contact form */
+form label {
+  color: navy;
+  border: none;
+  font-weight: 300;
+  font-size: 21px;
+  margin: 0 20px 10px 20px;
+  padding: 0;
+  text-align: left;
+  display: block;
+}
+input:enabled, input:active, input:focus {
+  background-color: whitesmoke;
+  color: navy;
+  box-shadow: 2px 2px 5px black;
+  border: none;
+  border-radius: 15px;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 300;
+  font-size: 18px;
+  margin: 0 10px 10px 10px;
+  padding: 5px 5px 5px 10px;
+  text-align: left !important;
+  width: 315px;
+}
+textarea:enabled, textarea:active, textarea:focus {
+  background-color: whitesmoke;
+  color: navy;
+  box-shadow: 2px 2px 5px black;
+  border: none;
+  border-radius: 15px;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 300;
+  font-size: 22px;
+  margin: 0 10px 0 10px;
+  padding: 5px 5px 5px 10px;
+  text-align: left !important;
+  width: 315px;
+}
+/* show and hide classes used in script.js */
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
+/* utility classes */
+.grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.ctr {
+  margin-left: auto;
+  margin-right: auto;
+}
+.ctr-txt {
+  text-align: center;
+}
